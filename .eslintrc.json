@@ -14,7 +14,8 @@
     "plugin:prettier/recommended"
   ],
   "globals": {
-    "React": "readonly"
+    "React": "readonly",
+    "JSX": true
   },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -28,7 +29,8 @@
     "react",
     "react-hooks",
     "@typescript-eslint",
-    "prettier"
+    "prettier",
+    "jsx-a11y"
   ],
   "rules": {
     "camelcase": "off",
